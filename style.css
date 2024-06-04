@@ -1,0 +1,77 @@
+html,body{
+    height: 100%;
+    margin:0;
+    font-size:16px ;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#666;
+}
+
+.pimg1{
+    background-image: url(https://github.com/anshuopinion/10-Practice-Project-Html-CSS/blob/Project-3-Parallax-Website/Project%203/images/image1.png?raw=true);
+    min-height: 100%;
+}
+
+
+.pimg2{
+    background-image: url( https://github.com/anshuopinion/10-Practice-Project-Html-CSS/blob/Project-3-Parallax-Website/Project%203/images/image2.png?raw=true);
+    min-height:400px;
+}
+
+
+.pimg3{
+    background-image: url(https://github.com/anshuopinion/10-Practice-Project-Html-CSS/blob/Project-3-Parallax-Website/Project%203/images/image3.png?raw=true);
+    min-height:400px;
+}
+
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.ptext{
+    position:absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+.textBg{
+    background-color:black;
+    color:#fff;
+    padding:15px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light {
+    background-color:black;
+    color:#fff
+}
+
+.section-neutra{
+    background-color: #fff;
+    color: black;
+
+}
+.section-dark{
+    background-color:black;
+    color:#fff;
+}
+
